@@ -1,0 +1,43 @@
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+#
+# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+# invoked from the command line by running `flutter analyze`.
+
+# The following line activates a set of recommended lints for Flutter apps,
+# packages, and plugins designed to encourage good coding practices.
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    file_names: true
+    library_names: true
+    unnecessary_new: false
+    unnecessary_this: false
+    parameter_assignments: false
+    use_setters_to_change_properties: false
+    constant_identifier_names: false
+    avoid_function_literals_in_foreach_calls: false
+    avoid_print: false
+    avoid_void_async: false
+    avoid_classes_with_only_static_members: false
+    curly_braces_in_flow_control_structures: false
+    avoid_positional_boolean_parameters: false
+    implementation_imports: true
+    prefer_const_constructors: false
+    prefer_const_constructors_in_immutables: false
+    prefer_single_quotes: false
+    prefer_double_quotes: false
+    unnecessary_brace_in_string_interps: false
+    prefer_relative_imports: false
+    always_put_control_body_on_new_line: false # true conflicts with dartfmt
+    always_put_required_named_parameters_first: true
+    annotate_overrides: true
+    lines_longer_than_80_chars: false
+    prefer_final_fields: true
+    prefer_final_in_for_each: true
+    prefer_final_locals: true
+    unawaited_futures: true
+    use_function_type_syntax_for_parameter: true
+    library_prefixes: false
