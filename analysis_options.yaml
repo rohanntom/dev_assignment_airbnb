@@ -41,3 +41,4 @@ linter:
     unawaited_futures: true
     use_function_type_syntax_for_parameter: true
     library_prefixes: false
+    use_key_in_widget_constructors: false
